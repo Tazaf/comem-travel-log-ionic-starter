@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>CreateTrip</ion-title>
+
+    <!-- Logout button -->
+    <ion-buttons slot="end">
+      <ion-button (click)="logOut()">
+        <ion-icon [icon]="logOutIcon"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">CreateTrip</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div class="ion-padding">Let's create some trips</div>
+</ion-content>
